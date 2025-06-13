@@ -31,3 +31,5 @@ Secara logis, Anda mungkin tidak bisa membuat kerangka esai (`Tugas ID 1`) tanpa
 Untuk menetapkan ketergantungan ini, Anda akan diminta untuk memasukkan dua ID tugas:
 * **ID Tugas:** ID dari tugas yang **akan memiliki ketergantungan** (yaitu, tugas yang menunggu untuk diselesaikan).
 * **ID Tugas yang menjadi Ketergantungan:** ID dari tugas **prasyarat** (yaitu, tugas yang harus diselesaikan terlebih dahulu).
+* Jika Anda mencoba menandai **`Tugas ID 1`** sebagai selesai **sebelum `Tugas ID 2` selesai**, sistem akan menolak dan memberikan peringatan bahwa `Tugas ID 2` harus diselesaikan terlebih dahulu.
+* Anda harus terlebih dahulu menandai **`Tugas ID 2`** sebagai selesai, atau menghapus `Tugas ID 2`, barulah Anda bisa menandai **`Tugas ID 1`** sebagai selesai.
